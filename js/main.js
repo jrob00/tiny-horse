@@ -184,7 +184,6 @@ function loadNewNavContent(newSectionClass, $selectedNavLink, skipAnimation) {
 		// fade out the previous section
 		$previousSection.fadeOut(function() {
 			
-			
 			/*// special formatting for the team page
 			if (newSectionClass == "team") {
 				
@@ -196,7 +195,6 @@ function loadNewNavContent(newSectionClass, $selectedNavLink, skipAnimation) {
 				$("#right-content").css("max-width", "548px");
 				$("#right-content .content-holder").css("max-width", "475px");
 			}*/
-			
 			
 			// select and fade in the newly displayed section
 			$newSection.fadeIn();
